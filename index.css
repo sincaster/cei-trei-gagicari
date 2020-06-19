@@ -1,2 +1,28 @@
+pre {
 
+	border: 10px;
+	border-style: solid;
+	border-color: #ffffff;
+	background-color: #ffffff;
+	border-radius-top-left: 5px;
+	
+	width: 195px;
+}
+
+pre:hover {
+
+	opacity: 0.5; 
+	width: 222px;
+	transform: skew(3deg, 0deg);
+	transition-duration: 1s;
+
+}
+
+body {
+
+	#background-image: url("./some-files/GNU.png");
+	background-color: #5af2b2;	
+	background-repeat: repeat;
+
+}
 
