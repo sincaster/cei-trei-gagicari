@@ -5,7 +5,7 @@
 	border-color: #ffffff;
 
 	background-color: #ffb6c1;
-	border-radius-top-left: 5px;
+	border-radius-top-left: 10px;
 	
 	width: 205px;
 }
@@ -14,15 +14,43 @@
 
 	opacity: 0.5; 
 	width: 222px;
+	background-color: #3366cc;
 	transition-duration: 1s;
 
 }
+
+#rss {
+
+        border: 10px;
+        border-style: solid;
+        border-color: #ffffff;
+
+        background-color: #e2befb;
+        border-radius-top-right: 10px;
+
+        width: 275px;
+}
+
+#rss:hover {
+
+        opacity: 0.6; 
+	background-color: #eb002a;
+        transition-duration: 1s;
+
+}
+
 
 body {
 
 	background-image: url("./some-files/background.jpg");
 	#background-color: #5af2b2;	
-	background-repeat: repeat;
+	background-repeat: repeat; 
+    	-webkit-touch-callout: none;
+    	-webkit-user-select: none;
+    	-khtml-user-select: none;
+    	-moz-user-select: none;
+    	-ms-user-select: none;
+	user-select: none;
 
 }
 
