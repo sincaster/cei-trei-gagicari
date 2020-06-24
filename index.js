@@ -1,7 +1,7 @@
 window.onload = addListeners;
 
 function addListeners(){
-    document.getElementById('welcome').addEventListener('mousedown', mouseDown, false);
+    var lol = document.getElementById("welcome").addEventListener('mousedown', mouseDown, false); 
     window.addEventListener('mouseup', mouseUp, false);
 
 }
