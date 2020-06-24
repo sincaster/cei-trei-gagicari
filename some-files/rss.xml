@@ -1,0 +1,17 @@
+<rss version="2.0">
+
+<channel>
+	<title>Enjoy the latest stuff from sincaster</title>
+	<description>Scripts and tutorials</description>
+	<language>en-us</language>
+	<link>https://github.com/sincaster/sincaster.github.io/some-files/rss.xml</link> 
+
+	<item>
+			<title>Test</title>
+		<description>
+		sex 
+		</description>
+	</item> 
+</channel> 
+
+</rss>
