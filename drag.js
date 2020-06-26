@@ -20,4 +20,4 @@ function divMove(e){
   div.style.position = 'absolute';
   div.style.top = e.clientY + 'px';
   div.style.left = e.clientX + 'px';
-} 
+}

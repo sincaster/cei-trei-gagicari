@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 
-<link rel="stylesheet" type="text/css" href="index.css">
-<script src="index.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="index.css"> 
+
+<script src="drag.js"></script>
 
 	</head>
 
 	<body>
 
+		<!-- <marquee id="date">      </marquee> -->
+
+<script>
+  document.getElementById("date").innerHTML = new Date().toDateString();
+</script>
+
+<div class="icons">
+<a href="https://github.com/sincaster/dotfiles"><img id="dots" src="./some-files/dots.svg"></img></a>
+<a href="https://github.com/sincaster"><img id="git" src="./some-files/git.svg"></img></a>
+</div>
+
 <pre id="welcome">
   Welcome to my website.
-  I hope you will have
-  lots of fun here learning!
+  You are probably here 
+  because I shill my
+  dotfiles on Discord 
+  servers
 </pre>
 
 <pre id="rss">
