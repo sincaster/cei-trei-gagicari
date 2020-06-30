@@ -4,18 +4,9 @@ html {
 
 }
 
-/* #date {
-
-	border: 10px;
-	border-style: solid;
-	border-color: #ffffff;
-
-	background-color: #cf934a;
-
-}
-*/
-
 #icons-bar {
+
+	position: sticky;
 
 	background-color: #efefef;	
 	filter: blur(0.3px);
@@ -54,83 +45,46 @@ html {
 }
 */
 
+pre {
 
-#welcome {
+        border: 5px;
+        border-style: none;
+        border-color: #6e6e6e;
 
-	border: 10px;
-	border-style: solid;
-	border-color: #ffffff;
+	border-radius: 10px;
+	background: linear-gradient(145deg, #ebebeb, #c6c6c6);
+	box-shadow:  0px 0px 5px #c4c4c4, 
+             -0px -0px 5px #f4f4f4;
 
-	background-color: #cf4a86;
-	border-radius-top-left: 10px;
-	
-	position: absolute;
-	width: 240px; 
-	display: flex; 
-	top: 40px;
 
-    box-shadow: inset 4px 4px 40px #2a2a2a;
-               /* -7px -7px 9px #2a2a2a;*/
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+        #width: 370px; 
 
 }
 
-#welcome:hover {
+#floaty {
 
-	opacity: 0.5; 
-	width: 250px;
-	background-color: #6967d8;
-	transition-duration: 1s;
+	border-radius: 13px;
+	background: #ffffff;
+	box-shadow: inset 115px 15px 10px #d3d3e9, 
+       		    inset 115px 30px 10px #e5e5fd;
 
-    cursor: none;
+    }
 
-}
+.mainDiv {
 
-#rss {
-
-        border: 10px;
-        border-style: solid;
-        border-color: #ffffff;
-
-        background-color: #4ac8cf;
-        border-radius-top-right: 10px;
-
-        #width: 370px;
-
-        position: absolute;
-	    left: 255px;
-        top: 140px;
-
-        box-shadow: inset 2px 2px 20px #2a2a2a;
+	display: flex;
+        flex-wrap: wrap;
+      	justify-content: space-evenly; 
 
 }
 
-#rss:hover {
-
-    opacity: 0.6; 
-    # background-color: #eb002a;
-    background-color: #00ff99;
-    transition-duration: 1s;
-
-    cursor: none;
-
-}
-
-#lol {
-
-    position: absolute;
-
-    display: flex;
-
-    flex-wrap: wrap;
-    flex-shrink: 4;
-
-    align-content: center;
-
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }
 
 #bash-example {
@@ -140,6 +94,18 @@ html {
 
     position: relative;
     left: 650px;
+
+   /* border-radius: 10px;
+    background: linear-gradient(145deg, #fbfbf1, #d4d4cb);
+    box-shadow:  5px 5px 26px #b7b7b0, 
+             -5px -5px 26px #ffffff; 
+	     */
+    border-radius: 5px;
+    background: #ebebe1;
+    box-shadow: inset 5px 5px 100px #b7b7b0, 
+                inset -5px -5px 100px #ffffff;
+   
+  	 
 
 }
 
@@ -151,7 +117,9 @@ html {
     position: relative;
     left: 700px;
 
-    transition-duration: 2s;
+    border-radius: 10px;
+
+    transition-duration: 1s;
 
 }
 

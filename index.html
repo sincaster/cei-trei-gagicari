@@ -5,48 +5,68 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" type="text/css" href="index.css">
 <link rel="stylesheet" type="text/css" href="./some-files/styles/solarized-light.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-<script src="drag.js"></script>
+<!-- my stuff -->
+<script src="./js/drag.js"></script>
+
 <script src="./some-files/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">AOS.init();</script>
 
 	</head>
 
 	<body>
 
-		<!-- <marquee id="date">      </marquee> -->
-
-<script>
-  document.getElementById("date").innerHTML = new Date().toDateString();
-</script>
-
 <div id="icons-bar">
 
   <span id="icons">
-<a href="https://github.com/sincaster/dotfiles"><img id="dots" src="./some-files/dots.svg"></img></a>
-<a href="https://github.com/sincaster"><img id="git" src="./some-files/git.svg"></img></a>
-<a href="https://sincaster.github.io/some-files/rss.xml"><img id="rss-feed" src="./some-files/rssIcon.svg"></img></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/sincaster/dotfiles"><img id="dots" src="./some-files/dots.svg"></img></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/sincaster"><img id="git" src="./some-files/git.svg"></img></a>
+<a target="_blank" rel="noopener noreferrer" href="https://sincaster.github.io/some-files/rss.xml"><img id="rss-feed" src="./some-files/rssIcon.svg"></img></a>
+<a target="_blank" rel="noopener noreferrer" href="https://sincaster.github.io/some-files/blogs/blog.html"><img id="rss-feed" src="./some-files/blog.svg"></img></a>
   </span>
 
 </div>
 
-<pre class="pre_" id="welcome">
+<div class="mainDiv">
+
+<pre id="welcome">
   Welcome to my website.
   You are probably here 
   because I shill my
   dotfiles on Discord 
-  servers
+  servers :p
 </pre>
 
-<div id="lol">
-<pre id="rss">
-My <b>RSS feed</b> is <a href="https://sincaster.github.io/some-files/rss.xml">here</a>
-I will be sharing tips and tricks.
-Email me at sindavmi@gmail.com if you
-want to ask me something...
+<pre>
+  This website is more of an educational
+  project for me than a blog. I made some 
+  sites before, I just didn't host them 
+  anywhere because I didn't know GitHub
+  Pages existed at that time.
 </pre>
 
-<pre onclick="bashExample()" id="bash-example">
+<pre>
+ Originally, I made this site for 
+ the Holy Three Chads, Ali, Lyblis
+ and Cosmin. The site only had three
+ pictures of Garfield on it >.<
+</pre>
+	
+<pre>
+ I don't think they mind me deleting
+ three pictures of Garfield, THEY CAN
+ MAKE THEIR OWN WEBPAGES ABOUT THEIR
+ HOLY CHADDERY, so I guess I can use
+ this as a place to rant or whatever.
+</pre>
+	</div>
+
+<!-- <pre id="bash-example">
+
+	Just for aesthetics
   <code class="bash">
 case $picker in
     *ksh*)
@@ -54,8 +74,10 @@ case $picker in
 if [ ! d ~/.kshrc ]; then
     cp $PWD/ksh/.kshrc ~/.kshrc
     </code>
+        POSIX sh example
   </pre>
-</div>
+
+  -->
 
 	</body>
 </html>
