@@ -33,39 +33,12 @@
 <div class="mainDiv">
 
 <pre id="welcome">
-  Welcome to my website.
-  You are probably here 
-  because I shill my
-  dotfiles on Discord 
-  servers :p
+  Go to kekma.net right now
 </pre>
 
-<pre>
-  This website is more of an educational
-  project for me than a blog. I made some 
-  sites before, I just didn't host them 
-  anywhere because I didn't know GitHub
-  Pages existed at that time.
-</pre>
-
-<pre>
-    <b>By the way</b>, some elements are
-    <i>interactive</i>. You can drag them,
-    put your mouse over them and expect
-    different results. 
-</pre>
-
-<pre>
-  The github repo still has that description
-  because I initially made this site for a
-  joke religion, but now I want to make a 
-  bunch of stuff like a gore page or a chat
-  client. I am still thinking about it.  
-</div>
-
+<!--
 <pre id="bash-example">
 
-	Just for aesthetics
   <code class="bash">
 case $picker in
     *ksh*)
@@ -75,6 +48,6 @@ if [ ! d ~/.kshrc ]; then
     </code>
         Test message 
   </pre> 
-
+-->
 	</body>
 </html>
