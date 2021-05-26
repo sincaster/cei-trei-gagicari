@@ -1,136 +1,40 @@
-html {
-
-    scroll-behavior: smooth;    
-
-}
-
-#icons-bar {
-
-	position: sticky;
-
-	background-color: #efefef;	
-	filter: blur(0.3px);
-	opacity: 0.6;
-	
-}
-
-#icons-bar:hover {
-
-	filter: blur(0.1px);	
-	opacity: 0.3;
-
-    box-shadow: inset 10px 10px 40px #2a2a2a; #,
-#                inset -10px -10px 0px #ffffff;
-	transition-duration: 2s;
-
-}
-
-#dots:hover, #git:hover, #rss-feed:hover {
-
-    border-radius: 5px;
-    background: linear-gradient(145deg, #d7d7d7, #ffffff);
-    box-shadow: 50px 50px 100px #606060,
-                inset -50px -50px 100px #ffffff;
-   
-}
-
-
-/*.icons::after {
-	
-	content: all;
-	position: absolute;
-	opacity: 0.6;
-	filter: blur(1px);
-
-}
-*/
-
 pre {
 
         border: 5px;
         border-style: none;
-        border-color: #6e6e6e;
+        border-color: #000;
 
-	border-radius: 10px;
-	background: linear-gradient(145deg, #ebebeb, #c6c6c6);
-	box-shadow:  0px 0px 5px #c4c4c4, 
-             -0px -0px 5px #f4f4f4;
-
-
-        #width: 370px; 
-
+	border-radius: 2px;
+	background: #fff;
+	justify-content: center;
+ 
 }
 
-
-.mainDiv {
-
-	display: flex;
-        flex-wrap: wrap;
-      	justify-content: space-evenly; 
-
-}
-
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
-
-#bash-example {
-
-    opacity: 0.9;
-    filter: blur(2px);
-
-    position: relative;
-    left: 650px;
-
-   /* border-radius: 10px;
-    background: linear-gradient(145deg, #fbfbf1, #d4d4cb);
-    box-shadow:  5px 5px 26px #b7b7b0, 
-             -5px -5px 26px #ffffff; 
-	     */
-    border-radius: 5px;
-    background: #ebebe1;
-    box-shadow: inset 5px 5px 100px #b7b7b0, 
-                inset -5px -5px 100px #ffffff;
-   
-  	 
-
-}
-
-#bash-example:hover {
-
-    opacity: 0.99;
-    filter: blur(0px);
-
-    position: relative;
-    left: 700px;
-
-    border-radius: 10px;
-
-    transition-duration: 1s;
-
+html {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    scroll-behavior: smooth;    
 }
 
 body {
 
 	background-image: url("./some-files/background.jpg");
-	background-repeat: no-repeat; 
+	background-repeat: no-repeat;
+	/*
     	-webkit-touch-callout: none;
     	-webkit-user-select: none;
     	-khtml-user-select: none;
     	-moz-user-select: none;
     	-ms-user-select: none;
 	user-select: none;
-
+       */
 }
 
+/*
 body:focus {
 	
 	background-image: url("./some-files/background2.jpg");
 	transition-duration: 5s;
-
 }
+*/
